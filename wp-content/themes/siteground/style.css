@@ -1,0 +1,59 @@
+/*  
+Theme Name: siteground 
+Theme URI: http://example.com/example/
+Description: A search engine optimized website framework for WordPress.
+Author: You
+Author URI: http://example.com/
+Version: 1.0
+Tags: Comma-separated tags that describe your theme
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ 
+.
+*/
+
+body {
+    text-align: center;
+}
+
+#wrapper {
+    display: block;
+    border: 1px #a2a2a2 solid;
+    width:90%;
+    margin:0px auto;
+}
+
+#header {
+    width: 100%;
+    border: 2px #a2a2a2 solid;
+}
+
+#content {
+    width: 100%;
+    border: 2px #a2a2a2 solid;
+    float: left;
+}
+
+#sidebar {
+    width: 23%;
+    border: 2px #a2a2a2 solid;
+    float: right;
+}
+
+#delimiter {
+    clear: both;
+}
+
+#footer {
+    width: 100%;
+    border: 2px #a2a2a2 solid;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}
